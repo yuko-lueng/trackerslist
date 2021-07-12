@@ -1,5 +1,4 @@
 http://bt-club.ws/announce # error
-http://tracker.files.fm:6969/announce # malfunction
 http://open.touki.ru/announce.php # malfunction
 http://open.touki.ru/announce # malfunction
 http://torrentsmd.com:8080/announce # malfunction
@@ -51,6 +50,7 @@ http://sukebei.tracker.wf:8888/announce # registered torrents
 https://opentracker.acgnx.se:443/announce # registered torrents
 http://bt2.54new.com:8080/announce # registered torrents
 http://bt-tracker.gamexp.ru:2710/announce # registered torrents
+http://tracker.vraphim.com:6969/announce # registered torrents
 http://www.elitezones.ro/announce.php # registered torrents
 http://funfile.org:2710/announce # registered torrents
 http://potuk.com:2710/announce # registered torrents
@@ -132,6 +132,9 @@ http://bt2.edwardk.info:6969/announce # registered torrents
 http://open.nyaatorrents.info:6544/announce # registered torrents
 http://open.lolicon.eu:7777/announce # registered torrents
 http://torrent.resonatingmedia.com:6969/announce # registered torrents
+udp://t1.leech.ie:1337/announce # duplicate of udp://tracker.leech.ie:1337/announce
+udp://t2.leech.ie:1337/announce # duplicate of udp://tracker.leech.ie:1337/announce
+udp://t3.leech.ie:1337/announce # duplicate of udp://tracker.leech.ie:1337/announce
 udp://9.rarbg.to:2730/announce # duplicate of udp://9.rarbg.to:2710/announce
 udp://9.rarbg.to:2740/announce # duplicate of udp://9.rarbg.to:2710/announce
 udp://9.rarbg.to:2720/announce # duplicate of udp://9.rarbg.to:2710/announce
@@ -162,6 +165,8 @@ udp://8.rarbg.to:2710/announce # duplicate of udp://9.rarbg.to:2710/announce
 udp://9.rarbg.to:2780/announce # duplicate of udp://9.rarbg.to:2710/announce
 udp://9.rarbg.com:2780/announce # duplicate of udp://9.rarbg.to:2710/announce
 udp://9.rarbg.com:2720/announce # duplicate of udp://9.rarbg.to:2710/announce
+udp://tracker.dler.com:6969/announce # duplicate of udp://tracker.dler.org:6969/announce
+udp://tracker2.dler.com:80/announce # duplicate of udp://tracker2.dler.org:80/announce
 udp://p4p.arenabg.com:1337/announce # duplicate of udp://p4p.arenabg.ch:1337/announce
 udp://openbittorrent.com:80/announce # duplicate of udp://tracker.opentrackr.org:1337/announce
 udp://opentrackr.org:1337/announce # duplicate of udp://tracker.opentrackr.org:1337/announce
@@ -214,3 +219,7 @@ https://t3.leech.ie:443/announce # deprecated by owner
 http://t1.leech.ie:80/announce # deprecated by owner
 http://t2.leech.ie:80/announce # deprecated by owner
 http://t3.leech.ie:80/announce # deprecated by owner
+wss://ws.peer.ooo:443/announce # deprecated by owner
+http://tracker.nighthawk.pw:4201/announce # duplicate of http://tracker.nighthawk.pw:2052/announce
+udp://tracker.nighthawk.pw:4201/announce # duplicate of udp://tracker.nighthawk.pw:2052/announce
+ws://tracker.nighthawk.pw:4201/announce # duplicate of ws://tracker.nighthawk.pw:2052/announce
